@@ -1,0 +1,183 @@
+body {
+    background-color: rgb(40, 39, 39);
+}
+
+.background {
+    background-image: url("church.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar {
+    text-shadow: 1px 1px #000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.churchName {
+    font-size: 40px;
+}
+
+.greeting {
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 100px;
+}
+
+.title-text {
+    text-align: left;
+    font-size: 35px;
+    position: absolute;
+    top: 70%;
+    left: 33%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-shadow: 1px 1px #000000;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.middle {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-container > div {
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+table, th, td {
+    border-collapse: collapse;
+    text-align: center;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+}
+
+.times {
+    background-color: #ccc;
+}
+
+.footer {
+    background-color: rgb(40, 39, 39);
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 15px;
+}
+
+.footer-copyright {
+    padding: auto;
+}
+
+h1, h3, p, a {
+    color: white;
+}
+
+th, td {
+    color: black;
+}
+
+/* .column {
+    float: left;
+    width: 33.33%;
+} */
+
+.fa {
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+.donate_btn {
+    background-color: rgb(40, 39, 39);
+    color: white;
+    border: 2px solid white;
+    padding: 3px 5px;
+    border-radius: 10px;
+}
+
+.donate_btn:hover {
+    background-color: #ccc;
+    color: white;
+}
+
+
+/* .fa-facebook {
+    background: #3B5998;
+    color: white;
+} */
+
+/* .fa-instagram {
+    background: #125688;
+    color: white;
+} */
+
+/* .fa {
+    padding: 15px;
+    font-size: 25px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+} */
+  
+/* .fa:hover {
+      opacity: 0.7;
+} */
+
+
