@@ -3,7 +3,7 @@ body {
 }
 
 .background {
-    background-image: url("church.jpg");
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("church.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,6 +61,10 @@ li a {
     text-shadow: 1px 1px #000000;
 }
 
+.title-text h3 {
+    font-size: 70px;
+}
+
 a:link {
     text-decoration: none;
 }
@@ -107,9 +111,10 @@ table, th, td {
 
 .footer-content {
     display: grid;
-    gap: 5px;
+    gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 15px;
+    align-content: center;
 }
 
 .footer-copyright {
@@ -123,11 +128,6 @@ h1, h3, p, a {
 th, td {
     color: black;
 }
-
-/* .column {
-    float: left;
-    width: 33.33%;
-} */
 
 .fa {
     padding: 10px;
@@ -156,28 +156,53 @@ th, td {
     color: white;
 }
 
-
-/* .fa-facebook {
-    background: #3B5998;
-    color: white;
-} */
-
-/* .fa-instagram {
-    background: #125688;
-    color: white;
-} */
-
-/* .fa {
-    padding: 15px;
-    font-size: 25px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-} */
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
   
-/* .fa:hover {
-      opacity: 0.7;
-} */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 5px;
+    right: 5px;
+}
+  
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+@media only screen and (max-width: 600px) {
+    .title-text {
+        font-size: 20px;
+        text-align: center;
+        left: 40%;  
+    }
+    .navlinks a {
+        font-size: 25px;
+    }
+    .greeting {
+        height: 250px; 
+    }
+    .flex-container > div {
+        padding: 10px;
+    }
+    .flex-container {
+        flex-direction: column;
+    }
+    .card {
+        width: 95%;
+    }
+}
+
 
 
