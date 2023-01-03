@@ -183,12 +183,12 @@ th, td {
 
 @media only screen and (max-width: 600px) {
     .title-text {
-        font-size: 15px;
+        font-size: 20px;
         text-align: center;
         left: 40%;  
     }
     .navlinks a {
-        font-size: 25px;
+        font-size: 20px;
     }
     .greeting {
         height: 250px; 
