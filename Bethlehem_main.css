@@ -182,6 +182,11 @@ th, td {
     visibility: visible;
 }
 
+@font-face {
+    font-family: 'Old English Text MT';
+    src: url('Oldengl.ttf');
+}
+
 @media only screen and (max-width: 600px) {
     .title-text {
         font-size: 20px;
