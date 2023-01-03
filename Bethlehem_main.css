@@ -39,7 +39,7 @@ li a {
 
 .churchName {
     font-size: 40px;
-    font-family: 'Old English Text MT';
+    font-family:'Old English Text MT';
 }
 
 .greeting {
@@ -183,7 +183,7 @@ th, td {
 }
 
 @font-face {
-    font-family: 'Old English Text MT';
+    font-family:'Old English Text MT';
     src: url('Oldengl.ttf');
 }
 
