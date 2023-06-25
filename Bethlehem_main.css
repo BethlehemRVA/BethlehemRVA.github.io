@@ -12,6 +12,26 @@ body {
     height: auto;
 }
 
+.background_about {
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("doctrine.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.background_events {
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("door.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 .navbar {
     text-shadow: 1px 1px #000000;
 }
@@ -39,7 +59,7 @@ li a {
 
 .churchName {
     font-size: 40px;
-    font-family:'Old English Text MT';
+    font-family: 'Old English Text MT';
 }
 
 .greeting {
@@ -183,7 +203,7 @@ th, td {
 }
 
 @font-face {
-    font-family:'Old English Text MT';
+    font-family: 'Old English Text MT';
     src: url('Oldengl.ttf');
 }
 
@@ -193,6 +213,9 @@ th, td {
         text-align: center;
         left: 40%;  
     }
+    /* .title-text h3 {
+        font-size: 30px;
+    } */
     .navlinks a {
         font-size: 20px;
     }
