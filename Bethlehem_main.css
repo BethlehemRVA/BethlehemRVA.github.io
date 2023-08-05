@@ -135,7 +135,7 @@ table, th, td {
     gap: 10px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 15px;
-    align-content: center;
+    align-content: left;
 }
 
 .footer-copyright {
@@ -213,9 +213,13 @@ th, td {
         text-align: center;
         left: 40%;  
     }
-    /* .title-text h3 {
+    .title-text h3 {
         font-size: 30px;
-    } */
+        text-align: left;
+    }
+    .title-text p {
+        text-align: left;
+    }
     .navlinks a {
         font-size: 20px;
     }
@@ -230,6 +234,9 @@ th, td {
     }
     .card {
         width: 95%;
+    }
+    .middle {
+        text-align: left;
     }
 }
 
