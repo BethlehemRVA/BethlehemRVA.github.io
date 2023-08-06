@@ -226,6 +226,7 @@ th, td {
     }
     .churchName img {
         padding: 0;
+        width: 100%;
     }
     .greeting {
         height: 250px; 
