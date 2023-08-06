@@ -60,6 +60,7 @@ li a {
 .churchName {
     font-size: 40px;
     font-family: 'Old English Text MT';
+    padding: 0;
 }
 
 .greeting {
@@ -222,6 +223,9 @@ th, td {
     }
     .navlinks a {
         font-size: 20px;
+    }
+    .churchName img {
+        padding: 0;
     }
     .greeting {
         height: 250px; 
