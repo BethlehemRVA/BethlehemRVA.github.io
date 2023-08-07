@@ -108,7 +108,6 @@ a:link {
     margin-right: auto;
 }
 
-
 table, th, td {
     border-collapse: collapse;
     text-align: center;
@@ -120,6 +119,15 @@ table, th, td {
 
 .times {
     background-color: #ccc;
+    width: 100%;
+    text-align: center;
+}
+
+.times img {
+    /* width: 30%; */
+    height: auto;
+    max-width: 30%;
+    
 }
 
 .footer {
