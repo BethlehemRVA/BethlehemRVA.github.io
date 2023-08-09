@@ -257,6 +257,11 @@ th, td {
     .hosted-button {
         text-align: center;
     }
+    .map img{
+        text-align: center;
+        height: auto;
+        max-width: 100%;
+    }
 }
 
 
