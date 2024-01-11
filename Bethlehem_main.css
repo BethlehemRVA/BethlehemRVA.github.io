@@ -339,12 +339,6 @@ th, td {
         height: 100%;
     }
 
-    .googleCalendar_background {
-        text-align: center;
-        background-color: transparent;
-        padding: 20px;
-    }
-
     /* .navlinks a:not(:first-child) {display:none;}
     .navlinks a.icon {
         float: right;
