@@ -32,6 +32,16 @@ body {
     height: auto;
 }
 
+.background_motb {
+    background-image: linear-gradient(rgba(150, 169, 243, 0.183),rgba(150, 169, 243, 0.183)),url("camp1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
 .navbar {
     text-shadow: 1px 1px #000000;
 }
@@ -95,6 +105,12 @@ a:link {
     text-align: center;
     background-color: white;
     padding: 40px;
+}
+
+.middle_1 {
+    text-align: center;
+    background-color: transparent;
+    padding: 20px;
 }
 
 .flex-container {
@@ -214,6 +230,44 @@ th, td {
     visibility: visible;
 }
 
+.googleCalendar {
+    position: relative;
+    height: 0;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+.googleCalendar iframe{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    right: 10%;
+    width: 70%;
+    height: 100%;
+}
+
+/* .navlinks {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.navlinks a {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navlinks a:hover {
+    color: white;
+}
+
+.navlinks .icon {
+    display: none;
+} */
+
 @font-face {
     font-family: 'Old English Text MT';
     src: url('Oldengl.ttf');
@@ -257,11 +311,30 @@ th, td {
     .hosted-button {
         text-align: center;
     }
-    .map img{
+    .map img {
         text-align: center;
         height: auto;
         max-width: 100%;
     }
+
+    /* .navlinks a:not(:first-child) {display:none;}
+    .navlinks a.icon {
+        float: right;
+        display: block;
+    }
+    .navlinks.responsive {position: relative;}
+    .navlinks.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navlinks.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    } */
+
+
 }
 
 
