@@ -226,6 +226,10 @@ th, td {
     right: 5px;
     
 }
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
   
 .tooltip_nav:hover .tooltiptext_nav {
     visibility: visible;
