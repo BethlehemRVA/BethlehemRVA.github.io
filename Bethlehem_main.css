@@ -2,17 +2,17 @@ body {
     background-color: rgb(40, 39, 39);
 }
 
-/* .background {
+.background {
     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("church.jpg");
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 100%;
     max-width: 100%;
     height: auto;
-} */
+}
 
-/* .background_about {
+.background_about {
     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("doctrine.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body {
     max-height: 100%;
     max-width: 100%;
     height: auto;
-} */
+}
 
 /* .background_events {
     background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("door.jpg");
@@ -45,7 +45,7 @@ body {
 .navbar {
     text-shadow: 1px 1px #000000;
     height: 20%;
-    background-color: #000000;
+    /* background-color: #000000; */
 }
 
 ul {
@@ -82,7 +82,7 @@ li a {
     background-size: cover;
     position: relative;
     padding: 100px;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("church_crop.jpg");
+    /* background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url("church_crop.jpg"); */
 }
 
 .greeting_about {
@@ -122,11 +122,12 @@ a:link {
 
 .middle_1 {
     text-align: center;
-    /* background-color: transparent; */
+    background-color: transparent;
     padding: 20px;
     font-size: 25px;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)),url(candles_crop.jpg);
+    text-decoration: none;
 }
+
 
 .flex-container {
     display: flex;
