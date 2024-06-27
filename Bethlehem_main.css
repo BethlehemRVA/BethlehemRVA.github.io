@@ -128,6 +128,10 @@ a:link {
     text-decoration: none;
 }
 
+.middle_1 a:link {
+    border: 2px solid;
+    padding: 10px;
+}
 
 .flex-container {
     display: flex;
