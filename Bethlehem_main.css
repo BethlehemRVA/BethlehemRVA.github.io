@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(40, 39, 39);
+    /* background-color: rgb(40, 39, 39); */
+    background-color: #000000;
 }
 
 .background {
@@ -129,7 +130,7 @@ a:link {
 }
 
 .middle_1 a:link {
-    border: 2px solid;
+    border: 1px solid;
     padding: 10px;
 }
 
@@ -167,7 +168,8 @@ table, th, td {
 }
 
 .footer {
-    background-color: #282727;
+    /* background-color: #282727; */
+    background-color: #000000;
     overflow: hidden;
     position: relative;
     left: 0;
@@ -187,6 +189,7 @@ table, th, td {
 
 .footer-copyright {
     padding: auto;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
 h1, h3, p, a {
@@ -367,6 +370,13 @@ th, td {
     }
     .middle {
         text-align: left;
+    }
+    .middle_1 {
+        text-align: center;
+        background-color: transparent;
+        padding: 20px;
+        font-size: 14px;
+        text-decoration: none;
     }
     .hosted-button {
         text-align: center;
